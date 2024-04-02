@@ -1,9 +1,9 @@
-Text na radku c. 1.
-
-Dalsi radek byl prazdny, tento uz neco obsahuje. 
 Ctvrty radek je o nicem. 
-Blok except obsahuje pøíkazy, které se provedou, pokud dojde k vyhození výjimky.
 Pøi tomto øešení, pokud dojde k výjimce (požadovaný soubor nebyl nalezen), náš program nespadne. Abychom tuto vlastnost demonstrovali, pøidali jsme poslední øádek kódu do funkce print(), která se stejnì provede.
-Pokud je soubor úspìšnì otevøen, provede se pouze blok try a funkce print().
 Výsledkem úspìšného otevøení souboru bude objekt souboru (nazývaný handle, "handler", nìjaká abstrakce používaná operaèním systémem), který bude dále využíván funkcemi zápisu do souboru, ètení ze souboru atd.
+Dalsi radek byl prazdny, tento uz neco obsahuje. 
+Pokud je soubor úspìšnì otevøen, provede se pouze blok try a funkce print().
+
+Blok except obsahuje pøíkazy, které se provedou, pokud dojde k vyhození výjimky.
 Podívejme se na pøíklad: otevøeme soubor test.txt umístìný v adresáøi "Data", který se nachází ve stejném nadøazeném adresáøi "Work" jako adresáø "Python" - pracovní adresáø našeho programu (example.ru).
+Text na radku c. 1.

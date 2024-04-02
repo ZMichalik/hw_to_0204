@@ -21,14 +21,13 @@ if lines_file1 == lines_file2:
     print("Textove soubory jsou shodne.")
 
 else:
-    print("textove soubory jsou odlisne")
-    f_handl = open("text3.txt", "w+")
-    f_handl.writelines(lines_file1)
-    f_handl.writelines(lines_file2)
-    print(f_handl)
+    print("soubory nejsou shodne")
+    lines_file1 = set(lines_file1)
+    lines_file2 = set(lines_file2)
+    mishmash = lines_file1.union(lines_file2)
+    f_handl = open("text3.txt", "w")
+    f_handl.writelines(mishmash)
     f_handl.close()
-
-
 
 
 
@@ -38,5 +37,5 @@ lines_file1 = get_lines("text1.txt")
 lines_file2 = get_lines("text2.txt")
 lines_file3 = get_lines("text1.txt")
 lines_file4 = get_lines("text2.txt")
-
 """
+
