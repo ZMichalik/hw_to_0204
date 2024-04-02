@@ -1,0 +1,4 @@
+Text na radku c. 1.
+
+Dalsi radek byl prazdny, tento uz neco obsahuje. 
+Ctvrty radek je o nicem. 
